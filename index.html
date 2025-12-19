@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaarav Todankar | Fr. CRCE Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; scroll-behavior: smooth; }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">ST.</div>
+            <div class="space-x-6 text-gray-400 text-sm md:text-base">
+                <a href="#about" class="hover:text-sky-400 transition">About</a>
+                <a href="#journey" class="hover:text-sky-400 transition">Journey</a>
+                <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+                <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="pt-48 pb-20 px-6 text-center max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">
+            Hi, I'm <span class="gradient-text">Shaarav Todankar</span>
+        </h1>
+        <p class="text-xl text-slate-300 mb-4 font-medium uppercase tracking-widest">
+            Computer Engineering Student
+        </p>
+        <p class="text-lg text-slate-400 leading-relaxed italic">
+            "Turning curiosity into code, one semester at a time."
+        </p>
+    </header>
+
+    <section class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass-card p-8 md:p-12 rounded-3xl border-l-4 border-l-sky-500 shadow-2xl shadow-sky-500/5">
+                <h2 class="text-3xl font-bold mb-6">About <span class="text-sky-400">Me</span></h2>
+                <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
+                    <p>
+                        I am currently a First Year Engineering student at <strong>Fr. Conceicao Rodrigues College of Engineering (CRCE)</strong>, Bandra. Being part of such a prestigious institution in Mumbai, I am immersed in a competitive and innovation-driven environment that pushes me to explore the depths of Computer Engineering.
+                    </p>
+                    <p>
+                        My current focus is on building a rock-solid foundation in <strong>Programming in C</strong>, Engineering Mathematics, and Logical Problem Solving. Beyond the classroom, I am an active learner who enjoys staying ahead of the curve—recently completing my <strong>MATLAB Onramp certification</strong> to better understand technical computing and data analysis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="py-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center">My Academic <span class="text-sky-400">Journey</span></h2>
+            <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-700 before:to-transparent">
+                
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-slate-700 bg-slate-900 text-sky-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] glass-card p-6 rounded-xl">
+                        <h3 class="font-bold text-xl">Fr. CRCE, Mumbai</h3>
+                        <time class="text-sky-500 text-sm font-mono uppercase">2024 - Present</time>
+                        <p class="text-slate-400 mt-2 text-sm">Pursuing Bachelor of Engineering (Computer Science). Engaging in core engineering subjects and technical workshops.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-slate-700 bg-slate-900 text-slate-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] glass-card p-6 rounded-xl">
+                        <h3 class="font-bold text-xl">MATLAB Certification</h3>
+                        <time class="text-slate-500 text-sm font-mono uppercase">Dec 2025</time>
+                        <p class="text-slate-400 mt-2 text-sm">Certified in MATLAB Onramp by MathWorks, covering the essentials of data processing and visualization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-sky-400">Technical Toolkit</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-8 glass-card rounded-3xl hover:border-sky-500 transition-all duration-300 group">
+                <i class="fas fa-terminal text-sky-400 text-3xl mb-4 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold mb-4">Programming</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">C Language</span>
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">MATLAB</span>
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">HTML5/CSS3</span>
+                </div>
+            </div>
+            <div class="p-8 glass-card rounded-3xl hover:border-sky-500 transition-all duration-300 group">
+                <i class="fas fa-tools text-sky-400 text-3xl mb-4 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold mb-4">Development Tools</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">VS Code</span>
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">Git</span>
+                    <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm border border-slate-700">Linux Basics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-24 bg-slate-950 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold mb-4 text-white">Let's Connect</h2>
+            <p class="text-slate-400 mb-12">I am always open to discussing technology, projects, or internship opportunities.</p>
+            
+            <div class="flex flex-wrap justify-center gap-6 mb-16">
+                <a href="mailto:magnite.shaarav1@gmail.com" class="flex items-center gap-3 px-8 py-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-sky-500 transition group shadow-lg">
+                    <i class="fas fa-envelope text-sky-400 group-hover:animate-pulse"></i>
+                    <span class="font-semibold text-white">Email Me</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/shaarav-todankar-b0a11b3a1" target="_blank" class="flex items-center gap-3 px-8 py-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-sky-500 transition shadow-lg">
+                    <i class="fab fa-linkedin text-sky-400"></i>
+                    <span class="font-semibold text-white">LinkedIn</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+                <p class="text-slate-500 text-sm font-medium">© 2024 Shaarav Todankar</p>
+                <p class="text-slate-600 text-xs">Computer Engineering Student • Fr. CRCE Mumbai</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
